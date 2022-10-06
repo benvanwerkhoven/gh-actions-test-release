@@ -1,8 +1,8 @@
-name: Act on release created
+name: Act on release published
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   build:
