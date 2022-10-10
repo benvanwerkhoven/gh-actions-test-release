@@ -25,7 +25,7 @@ jobs:
         with:
           MY_REPO_URL: "https://github.com/${{ github.repository }}"
     
-      - name Commit changes
+      - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: GitHub actions user
